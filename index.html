@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TOP FIVE de Ma Musique</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="path/to/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <header>
+            <h1>TOP FIVE de Ma Musique</h1>
+        </header>
+        <div id="menu">
+            <ul>
+                <li><a href="https://fr.wikipedia.org/wiki/Drake_(rappeur)" target="_blank">Drake</a>
+                <li><a href="https://fr.wikipedia.org/wiki/Rihanna" target="_blank">Rihanna</a>
+                <li><a href="https://fr.wikipedia.org/wiki/Jay-Z" target="_blank">Jay-Z</a>
+                <li><a href="https://fr.wikipedia.org/wiki/Slipknot" target="_blank">Slipknot</a>
+                <li><a href="https://fr.wikipedia.org/wiki/Daft_Punk" target="_blank">Draft Punk</a>
+            </ul>
+        </div>
+        <section id="main-menu">
+            <ul>
+                <li>
+                    <div id="part1" class="images">
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="description">
+                        <h2>Drake</h2>
+                        <h3>Ses meilleurs titres</h3>
+                        <p>One Dance</p>
+                        <p>God's plan</p>
+                        <p>Jimmy Coooks</p>
+                        <p id="button1">Link musique</p>
+                    </div>
+                </li>
+                <li>
+                    <div id="part2" class="images">
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="description">
+                        <h2>Rihanna</h2>
+                        <h3>Ses meilleurs titres</h3>
+                        <p>Disturbia</p>
+                        <p>Don't Stop The Music</p>
+                        <p>Love On The Brain</p>
+                        <p id="button2">Link musique</p>
+                    </div>
+                </li>
+                <li>
+                    <div id="part3" class="images">
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="description">
+                        <h2>Jay-Z</h2>
+                        <h3>Ses meilleurs titres</h3>
+                        <p>Empire State Of Mind</p>
+                        <p>Ni**as in Paris</p>
+                        <p>Numb / Encore</p>
+                        <p id="button3">Link musique</p>
+                    </div>
+                </li>
+                <li>
+                    <div id="part4" class="images">
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="description">
+                        <h2>Slipknot</h2>
+                        <h3>Leurs meilleurs titres</h3>
+                        <p>Duality</p>
+                        <p>Psychosocial</p>
+                        <p>Wait and Bleed</p>
+                        <p id="button4">Link musique</p>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div id="part5" class="images">
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="description">
+                        <h2>Daft<br>Punk</h2>
+                        <h3>Leurs meilleurs titres</h3>
+                        <p>Get Lucky</p>
+                        <p>Instant Crush</p>
+                        <p>One More Time</p>
+                        <p>Around the World</p>
+                        <p id="button5">Link musique</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div id="music-background">
+            <div id="app-cover">            
+                <div id="bg-artwork"></div>
+                <div id="bg-layer"></div>
+                <div id="player">
+                <div id="player-track">
+                    <div id="album-name"></div>
+                    <div id="track-name"></div>
+                    <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                    </div>
+                </div>
+                <div id="player-content">
+                    <div id="album-art">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02f907de96b9a4fbc04accc0d5" class="active" id="_1">
+                    <img src="https://i.scdn.co/image/ab67616d00001e020e6cedee56e37a9a65f2164d" id="_2">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02fec1b815bb3c50a64a90fd10" id="_3">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02e7fbc0883149094912559f2c" id="_4">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029b9b36b0e22870b9f542d937" id="_5">
+                    <div id="buffer-box">Buffering ...</div>
+                    </div>
+                    <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                        <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                        <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                        <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
